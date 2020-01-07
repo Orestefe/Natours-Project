@@ -1,0 +1,39 @@
+.center-text {
+	text-align: center !important;
+}
+
+.margin-bottom {
+	&-sm {
+		margin-bottom: 1.5rem !important;
+	}
+
+	&-md {
+		margin-bottom: 4rem !important;
+
+		@include media(tab-port) {
+			margin-bottom: 3rem;
+		}
+	}
+
+	&-lg {
+		margin-bottom: 8rem !important;
+
+		@include media(tab-port) {
+			margin-bottom: 5rem;
+		}
+	}
+}
+
+.margin-top {
+	&-sm {
+		margin-top: 1.5rem !important;
+	}
+
+	&-md {
+		margin-top: 4rem !important;
+	}
+
+	&-lg {
+		margin-top: 8rem !important;
+	}
+}
